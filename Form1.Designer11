@@ -1,0 +1,763 @@
+﻿namespace Sistema_de_comida_rapida
+{
+    partial class ZazónApp
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ZazónApp));
+            panel1 = new Panel();
+            buttonPagos = new Button();
+            buttonEntregas = new Button();
+            buttonOrdenes = new Button();
+            buttonMenu = new Button();
+            panelPago = new Panel();
+            buttonVolverPago = new Button();
+            labelTotalPago = new Label();
+            comboBoxMetodoPago = new ComboBox();
+            comboBoxOrden = new ComboBox();
+            buttonPago = new Button();
+            labelMetodo = new Label();
+            TotalPago = new Label();
+            labelOrden = new Label();
+            panel8 = new Panel();
+            label7 = new Label();
+            panelEntregas = new Panel();
+            buttonEliminarEntrega = new Button();
+            labelltotalentregas = new Label();
+            listBoxEntregas = new ListBox();
+            buttonVolverEntrega = new Button();
+            buttonConfirmarEntrega = new Button();
+            dataGridViewEntregas = new DataGridView();
+            panel7 = new Panel();
+            label6 = new Label();
+            panel2 = new Panel();
+            label1 = new Label();
+            panel3 = new Panel();
+            panelOrdenes = new Panel();
+            labelTotalOrden = new Label();
+            buttonVolverOrden = new Button();
+            buttonConfirmarOrden = new Button();
+            listBoxOrden = new ListBox();
+            dataGridViewMenuOrdenes = new DataGridView();
+            buttonAggorden = new Button();
+            panel6 = new Panel();
+            label3 = new Label();
+            panelMenu = new Panel();
+            dataGridViewMenu = new DataGridView();
+            buttonVolverMenu = new Button();
+            buttonActualizarProducto = new Button();
+            buttonEliminarProducto = new Button();
+            buttonAgregarProducto = new Button();
+            label5 = new Label();
+            label4 = new Label();
+            Producto = new Label();
+            textBoxPrecio = new TextBox();
+            textBoxCategoria = new TextBox();
+            textBoxProducto = new TextBox();
+            panel4 = new Panel();
+            label2 = new Label();
+            pictureBox1 = new PictureBox();
+            panel1.SuspendLayout();
+            panelPago.SuspendLayout();
+            panel8.SuspendLayout();
+            panelEntregas.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewEntregas).BeginInit();
+            panel7.SuspendLayout();
+            panel2.SuspendLayout();
+            panel3.SuspendLayout();
+            panelOrdenes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewMenuOrdenes).BeginInit();
+            panel6.SuspendLayout();
+            panelMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewMenu).BeginInit();
+            panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.Teal;
+            panel1.Controls.Add(buttonPagos);
+            panel1.Controls.Add(buttonEntregas);
+            panel1.Controls.Add(buttonOrdenes);
+            panel1.Controls.Add(buttonMenu);
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(137, 572);
+            panel1.TabIndex = 0;
+            // 
+            // buttonPagos
+            // 
+            buttonPagos.Image = (Image)resources.GetObject("buttonPagos.Image");
+            buttonPagos.Location = new Point(28, 504);
+            buttonPagos.Name = "buttonPagos";
+            buttonPagos.Size = new Size(91, 86);
+            buttonPagos.TabIndex = 3;
+            buttonPagos.UseVisualStyleBackColor = true;
+            buttonPagos.Click += buttonPagos_Click;
+            // 
+            // buttonEntregas
+            // 
+            buttonEntregas.Image = (Image)resources.GetObject("buttonEntregas.Image");
+            buttonEntregas.Location = new Point(28, 369);
+            buttonEntregas.Name = "buttonEntregas";
+            buttonEntregas.Size = new Size(91, 86);
+            buttonEntregas.TabIndex = 2;
+            buttonEntregas.UseVisualStyleBackColor = true;
+            buttonEntregas.Click += buttonEntregas_Click;
+            // 
+            // buttonOrdenes
+            // 
+            buttonOrdenes.Image = (Image)resources.GetObject("buttonOrdenes.Image");
+            buttonOrdenes.Location = new Point(28, 223);
+            buttonOrdenes.Name = "buttonOrdenes";
+            buttonOrdenes.Size = new Size(91, 86);
+            buttonOrdenes.TabIndex = 1;
+            buttonOrdenes.UseVisualStyleBackColor = true;
+            buttonOrdenes.Click += buttonOrdenes_Click;
+            // 
+            // buttonMenu
+            // 
+            buttonMenu.Image = (Image)resources.GetObject("buttonMenu.Image");
+            buttonMenu.Location = new Point(28, 84);
+            buttonMenu.Name = "buttonMenu";
+            buttonMenu.Size = new Size(91, 86);
+            buttonMenu.TabIndex = 0;
+            buttonMenu.UseVisualStyleBackColor = true;
+            buttonMenu.Click += buttonMenu_Click;
+            // 
+            // panelPago
+            // 
+            panelPago.Controls.Add(buttonVolverPago);
+            panelPago.Controls.Add(labelTotalPago);
+            panelPago.Controls.Add(comboBoxMetodoPago);
+            panelPago.Controls.Add(comboBoxOrden);
+            panelPago.Controls.Add(buttonPago);
+            panelPago.Controls.Add(labelMetodo);
+            panelPago.Controls.Add(TotalPago);
+            panelPago.Controls.Add(labelOrden);
+            panelPago.Controls.Add(panel8);
+            panelPago.Location = new Point(41, 56);
+            panelPago.Name = "panelPago";
+            panelPago.Size = new Size(413, 362);
+            panelPago.TabIndex = 4;
+            panelPago.Visible = false;
+            // 
+            // buttonVolverPago
+            // 
+            buttonVolverPago.BackColor = Color.Red;
+            buttonVolverPago.Font = new Font("Sitka Small", 9F, FontStyle.Bold);
+            buttonVolverPago.Location = new Point(172, 317);
+            buttonVolverPago.Name = "buttonVolverPago";
+            buttonVolverPago.Size = new Size(75, 33);
+            buttonVolverPago.TabIndex = 8;
+            buttonVolverPago.Text = "Volver";
+            buttonVolverPago.UseVisualStyleBackColor = false;
+            buttonVolverPago.Click += buttonVolverPago_Click;
+            // 
+            // labelTotalPago
+            // 
+            labelTotalPago.AutoSize = true;
+            labelTotalPago.Font = new Font("Tahoma", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelTotalPago.Location = new Point(23, 139);
+            labelTotalPago.Name = "labelTotalPago";
+            labelTotalPago.Size = new Size(270, 23);
+            labelTotalPago.TabIndex = 7;
+            labelTotalPago.Text = "Total:                         $0.00";
+            // 
+            // comboBoxMetodoPago
+            // 
+            comboBoxMetodoPago.FormattingEnabled = true;
+            comboBoxMetodoPago.Items.AddRange(new object[] { "Efectivo", "Tarjeta", "Cheque" });
+            comboBoxMetodoPago.Location = new Point(196, 193);
+            comboBoxMetodoPago.Name = "comboBoxMetodoPago";
+            comboBoxMetodoPago.Size = new Size(118, 23);
+            comboBoxMetodoPago.TabIndex = 6;
+            // 
+            // comboBoxOrden
+            // 
+            comboBoxOrden.FormattingEnabled = true;
+            comboBoxOrden.Location = new Point(196, 82);
+            comboBoxOrden.Name = "comboBoxOrden";
+            comboBoxOrden.Size = new Size(118, 23);
+            comboBoxOrden.TabIndex = 5;
+            comboBoxOrden.SelectedIndexChanged += comboBoxOrden_SelectedIndexChanged;
+            // 
+            // buttonPago
+            // 
+            buttonPago.BackColor = SystemColors.ActiveCaption;
+            buttonPago.Font = new Font("Sitka Small", 9F, FontStyle.Bold);
+            buttonPago.Location = new Point(114, 280);
+            buttonPago.Name = "buttonPago";
+            buttonPago.Size = new Size(184, 31);
+            buttonPago.TabIndex = 4;
+            buttonPago.Text = "Confirmar Pago";
+            buttonPago.UseVisualStyleBackColor = false;
+            buttonPago.Click += buttonPago_Click;
+            // 
+            // labelMetodo
+            // 
+            labelMetodo.AutoSize = true;
+            labelMetodo.Font = new Font("Britannic Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelMetodo.Location = new Point(23, 195);
+            labelMetodo.Name = "labelMetodo";
+            labelMetodo.Size = new Size(146, 21);
+            labelMetodo.TabIndex = 3;
+            labelMetodo.Text = "Método de Pago:";
+            // 
+            // TotalPago
+            // 
+            TotalPago.AutoSize = true;
+            TotalPago.Font = new Font("Britannic Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            TotalPago.Location = new Point(23, 141);
+            TotalPago.Name = "TotalPago";
+            TotalPago.Size = new Size(0, 21);
+            TotalPago.TabIndex = 2;
+            // 
+            // labelOrden
+            // 
+            labelOrden.AutoSize = true;
+            labelOrden.Font = new Font("Britannic Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelOrden.Location = new Point(23, 84);
+            labelOrden.Name = "labelOrden";
+            labelOrden.Size = new Size(65, 21);
+            labelOrden.TabIndex = 1;
+            labelOrden.Text = "Orden:";
+            // 
+            // panel8
+            // 
+            panel8.BackColor = Color.DarkSlateGray;
+            panel8.Controls.Add(label7);
+            panel8.Dock = DockStyle.Top;
+            panel8.Location = new Point(0, 0);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(413, 60);
+            panel8.TabIndex = 0;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Britannic Bold", 21.75F);
+            label7.ForeColor = SystemColors.ButtonHighlight;
+            label7.Location = new Point(174, 14);
+            label7.Name = "label7";
+            label7.Size = new Size(78, 32);
+            label7.TabIndex = 0;
+            label7.Text = "Pago";
+            // 
+            // panelEntregas
+            // 
+            panelEntregas.Controls.Add(buttonEliminarEntrega);
+            panelEntregas.Controls.Add(labelltotalentregas);
+            panelEntregas.Controls.Add(listBoxEntregas);
+            panelEntregas.Controls.Add(buttonVolverEntrega);
+            panelEntregas.Controls.Add(buttonConfirmarEntrega);
+            panelEntregas.Controls.Add(dataGridViewEntregas);
+            panelEntregas.Controls.Add(panel7);
+            panelEntregas.Location = new Point(215, 53);
+            panelEntregas.Name = "panelEntregas";
+            panelEntregas.Size = new Size(866, 521);
+            panelEntregas.TabIndex = 3;
+            panelEntregas.Visible = false;
+            // 
+            // buttonEliminarEntrega
+            // 
+            buttonEliminarEntrega.BackColor = SystemColors.ActiveCaption;
+            buttonEliminarEntrega.Font = new Font("Sitka Small", 9F, FontStyle.Bold);
+            buttonEliminarEntrega.Location = new Point(500, 396);
+            buttonEliminarEntrega.Name = "buttonEliminarEntrega";
+            buttonEliminarEntrega.Size = new Size(158, 34);
+            buttonEliminarEntrega.TabIndex = 8;
+            buttonEliminarEntrega.Text = "Eliminar Entrega";
+            buttonEliminarEntrega.UseVisualStyleBackColor = false;
+            buttonEliminarEntrega.Click += buttonEliminarEntrega_Click;
+            // 
+            // labelltotalentregas
+            // 
+            labelltotalentregas.AutoSize = true;
+            labelltotalentregas.Font = new Font("Tahoma", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelltotalentregas.Location = new Point(245, 415);
+            labelltotalentregas.Name = "labelltotalentregas";
+            labelltotalentregas.Size = new Size(126, 23);
+            labelltotalentregas.TabIndex = 7;
+            labelltotalentregas.Text = "Total: $0.00";
+            // 
+            // listBoxEntregas
+            // 
+            listBoxEntregas.FormattingEnabled = true;
+            listBoxEntregas.Location = new Point(245, 267);
+            listBoxEntregas.Name = "listBoxEntregas";
+            listBoxEntregas.Size = new Size(413, 124);
+            listBoxEntregas.TabIndex = 4;
+            // 
+            // buttonVolverEntrega
+            // 
+            buttonVolverEntrega.BackColor = Color.Red;
+            buttonVolverEntrega.Font = new Font("Sitka Small", 9F, FontStyle.Bold);
+            buttonVolverEntrega.Location = new Point(586, 436);
+            buttonVolverEntrega.Name = "buttonVolverEntrega";
+            buttonVolverEntrega.Size = new Size(72, 34);
+            buttonVolverEntrega.TabIndex = 3;
+            buttonVolverEntrega.Text = "Volver";
+            buttonVolverEntrega.UseVisualStyleBackColor = false;
+            buttonVolverEntrega.Click += buttonVolverEntrega_Click;
+            // 
+            // buttonConfirmarEntrega
+            // 
+            buttonConfirmarEntrega.BackColor = SystemColors.ActiveCaption;
+            buttonConfirmarEntrega.Font = new Font("Sitka Small", 9F, FontStyle.Bold);
+            buttonConfirmarEntrega.Location = new Point(422, 436);
+            buttonConfirmarEntrega.Name = "buttonConfirmarEntrega";
+            buttonConfirmarEntrega.Size = new Size(158, 34);
+            buttonConfirmarEntrega.TabIndex = 2;
+            buttonConfirmarEntrega.Text = "Confirmar Entrega";
+            buttonConfirmarEntrega.UseVisualStyleBackColor = false;
+            buttonConfirmarEntrega.Click += buttonConfirmarEntrega_Click;
+            // 
+            // dataGridViewEntregas
+            // 
+            dataGridViewEntregas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewEntregas.Location = new Point(245, 95);
+            dataGridViewEntregas.Name = "dataGridViewEntregas";
+            dataGridViewEntregas.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridViewEntregas.Size = new Size(413, 150);
+            dataGridViewEntregas.TabIndex = 1;
+            dataGridViewEntregas.CellContentClick += dataGridViewEntregas_CellContentClick;
+            // 
+            // panel7
+            // 
+            panel7.BackColor = Color.DarkSlateGray;
+            panel7.Controls.Add(label6);
+            panel7.Dock = DockStyle.Top;
+            panel7.Location = new Point(0, 0);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(866, 60);
+            panel7.TabIndex = 0;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Britannic Bold", 21.75F);
+            label6.ForeColor = SystemColors.ButtonHighlight;
+            label6.Location = new Point(369, 14);
+            label6.Name = "label6";
+            label6.Size = new Size(125, 32);
+            label6.TabIndex = 0;
+            label6.Text = "Entregas";
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.DarkSlateGray;
+            panel2.Controls.Add(label1);
+            panel2.Dock = DockStyle.Top;
+            panel2.Location = new Point(137, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(939, 84);
+            panel2.TabIndex = 1;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Britannic Bold", 21.75F);
+            label1.ForeColor = SystemColors.Control;
+            label1.Location = new Point(237, 25);
+            label1.Name = "label1";
+            label1.Size = new Size(513, 32);
+            label1.TabIndex = 0;
+            label1.Text = "Gestión de Negocios de Comida Rápida";
+            // 
+            // panel3
+            // 
+            panel3.Controls.Add(panelOrdenes);
+            panel3.Controls.Add(panelEntregas);
+            panel3.Controls.Add(panelMenu);
+            panel3.Controls.Add(panelPago);
+            panel3.Controls.Add(pictureBox1);
+            panel3.Dock = DockStyle.Fill;
+            panel3.Location = new Point(137, 84);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(939, 488);
+            panel3.TabIndex = 2;
+            // 
+            // panelOrdenes
+            // 
+            panelOrdenes.Controls.Add(labelTotalOrden);
+            panelOrdenes.Controls.Add(buttonVolverOrden);
+            panelOrdenes.Controls.Add(buttonConfirmarOrden);
+            panelOrdenes.Controls.Add(listBoxOrden);
+            panelOrdenes.Controls.Add(dataGridViewMenuOrdenes);
+            panelOrdenes.Controls.Add(buttonAggorden);
+            panelOrdenes.Controls.Add(panel6);
+            panelOrdenes.Location = new Point(215, 53);
+            panelOrdenes.Name = "panelOrdenes";
+            panelOrdenes.Size = new Size(866, 521);
+            panelOrdenes.TabIndex = 2;
+            panelOrdenes.Visible = false;
+            // 
+            // labelTotalOrden
+            // 
+            labelTotalOrden.AutoSize = true;
+            labelTotalOrden.Font = new Font("Tahoma", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelTotalOrden.Location = new Point(250, 442);
+            labelTotalOrden.Name = "labelTotalOrden";
+            labelTotalOrden.Size = new Size(96, 23);
+            labelTotalOrden.TabIndex = 6;
+            labelTotalOrden.Text = "Total: $0";
+            // 
+            // buttonVolverOrden
+            // 
+            buttonVolverOrden.BackColor = Color.Red;
+            buttonVolverOrden.Font = new Font("Sitka Small", 9F, FontStyle.Bold);
+            buttonVolverOrden.Location = new Point(591, 440);
+            buttonVolverOrden.Name = "buttonVolverOrden";
+            buttonVolverOrden.Size = new Size(67, 32);
+            buttonVolverOrden.TabIndex = 5;
+            buttonVolverOrden.Text = "Volver";
+            buttonVolverOrden.UseVisualStyleBackColor = false;
+            buttonVolverOrden.Click += buttonVolverOrden_Click;
+            // 
+            // buttonConfirmarOrden
+            // 
+            buttonConfirmarOrden.BackColor = SystemColors.ActiveCaption;
+            buttonConfirmarOrden.Font = new Font("Sitka Small", 9F, FontStyle.Bold);
+            buttonConfirmarOrden.Location = new Point(451, 440);
+            buttonConfirmarOrden.Name = "buttonConfirmarOrden";
+            buttonConfirmarOrden.Size = new Size(134, 32);
+            buttonConfirmarOrden.TabIndex = 4;
+            buttonConfirmarOrden.Text = "Confirmar Orden";
+            buttonConfirmarOrden.UseVisualStyleBackColor = false;
+            buttonConfirmarOrden.Click += buttonConfirmarOrden_Click_1;
+            // 
+            // listBoxOrden
+            // 
+            listBoxOrden.FormattingEnabled = true;
+            listBoxOrden.Location = new Point(245, 282);
+            listBoxOrden.Name = "listBoxOrden";
+            listBoxOrden.Size = new Size(413, 139);
+            listBoxOrden.TabIndex = 3;
+            // 
+            // dataGridViewMenuOrdenes
+            // 
+            dataGridViewMenuOrdenes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewMenuOrdenes.Location = new Point(245, 72);
+            dataGridViewMenuOrdenes.Name = "dataGridViewMenuOrdenes";
+            dataGridViewMenuOrdenes.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridViewMenuOrdenes.Size = new Size(413, 150);
+            dataGridViewMenuOrdenes.TabIndex = 2;
+            dataGridViewMenuOrdenes.CellContentClick += dataGridViewMenuOrdenes_CellContentClick;
+            // 
+            // buttonAggorden
+            // 
+            buttonAggorden.BackColor = SystemColors.ActiveCaption;
+            buttonAggorden.Font = new Font("Sitka Small", 9F, FontStyle.Bold);
+            buttonAggorden.Location = new Point(377, 236);
+            buttonAggorden.Name = "buttonAggorden";
+            buttonAggorden.Size = new Size(158, 34);
+            buttonAggorden.TabIndex = 1;
+            buttonAggorden.Text = "Agregar a la Orden";
+            buttonAggorden.UseVisualStyleBackColor = false;
+            buttonAggorden.Click += buttonAggorden_Click;
+            // 
+            // panel6
+            // 
+            panel6.BackColor = Color.DarkSlateGray;
+            panel6.Controls.Add(label3);
+            panel6.Dock = DockStyle.Top;
+            panel6.Location = new Point(0, 0);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(866, 60);
+            panel6.TabIndex = 0;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Britannic Bold", 21.75F);
+            label3.ForeColor = SystemColors.ButtonHighlight;
+            label3.Location = new Point(394, 13);
+            label3.Name = "label3";
+            label3.Size = new Size(119, 32);
+            label3.TabIndex = 0;
+            label3.Text = "Órdenes";
+            // 
+            // panelMenu
+            // 
+            panelMenu.Controls.Add(dataGridViewMenu);
+            panelMenu.Controls.Add(buttonVolverMenu);
+            panelMenu.Controls.Add(buttonActualizarProducto);
+            panelMenu.Controls.Add(buttonEliminarProducto);
+            panelMenu.Controls.Add(buttonAgregarProducto);
+            panelMenu.Controls.Add(label5);
+            panelMenu.Controls.Add(label4);
+            panelMenu.Controls.Add(Producto);
+            panelMenu.Controls.Add(textBoxPrecio);
+            panelMenu.Controls.Add(textBoxCategoria);
+            panelMenu.Controls.Add(textBoxProducto);
+            panelMenu.Controls.Add(panel4);
+            panelMenu.Font = new Font("Sitka Small", 9F, FontStyle.Bold);
+            panelMenu.ForeColor = SystemColors.ActiveCaptionText;
+            panelMenu.Location = new Point(215, 53);
+            panelMenu.Name = "panelMenu";
+            panelMenu.Size = new Size(866, 521);
+            panelMenu.TabIndex = 1;
+            panelMenu.Visible = false;
+            // 
+            // dataGridViewMenu
+            // 
+            dataGridViewMenu.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewMenu.Location = new Point(220, 286);
+            dataGridViewMenu.Name = "dataGridViewMenu";
+            dataGridViewMenu.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridViewMenu.Size = new Size(413, 150);
+            dataGridViewMenu.TabIndex = 11;
+            // 
+            // buttonVolverMenu
+            // 
+            buttonVolverMenu.BackColor = Color.Red;
+            buttonVolverMenu.Location = new Point(441, 224);
+            buttonVolverMenu.Name = "buttonVolverMenu";
+            buttonVolverMenu.Size = new Size(134, 32);
+            buttonVolverMenu.TabIndex = 10;
+            buttonVolverMenu.Text = "Volver";
+            buttonVolverMenu.UseVisualStyleBackColor = false;
+            buttonVolverMenu.Click += buttonVolverMenu_Click;
+            // 
+            // buttonActualizarProducto
+            // 
+            buttonActualizarProducto.BackColor = SystemColors.ActiveCaption;
+            buttonActualizarProducto.DialogResult = DialogResult.Cancel;
+            buttonActualizarProducto.Font = new Font("Sitka Small", 9F, FontStyle.Bold);
+            buttonActualizarProducto.Location = new Point(441, 170);
+            buttonActualizarProducto.Name = "buttonActualizarProducto";
+            buttonActualizarProducto.Size = new Size(134, 32);
+            buttonActualizarProducto.TabIndex = 9;
+            buttonActualizarProducto.Text = "Actualizar";
+            buttonActualizarProducto.UseVisualStyleBackColor = false;
+            buttonActualizarProducto.Click += buttonActualizarProducto_Click;
+            // 
+            // buttonEliminarProducto
+            // 
+            buttonEliminarProducto.BackColor = SystemColors.ActiveCaption;
+            buttonEliminarProducto.Font = new Font("Sitka Small", 9F, FontStyle.Bold);
+            buttonEliminarProducto.Location = new Point(268, 224);
+            buttonEliminarProducto.Name = "buttonEliminarProducto";
+            buttonEliminarProducto.Size = new Size(134, 32);
+            buttonEliminarProducto.TabIndex = 8;
+            buttonEliminarProducto.Text = "Eliminar Producto";
+            buttonEliminarProducto.UseVisualStyleBackColor = false;
+            buttonEliminarProducto.Click += buttonEliminarProducto_Click;
+            // 
+            // buttonAgregarProducto
+            // 
+            buttonAgregarProducto.BackColor = SystemColors.ActiveCaption;
+            buttonAgregarProducto.Font = new Font("Sitka Small", 9F, FontStyle.Bold);
+            buttonAgregarProducto.Location = new Point(268, 170);
+            buttonAgregarProducto.Name = "buttonAgregarProducto";
+            buttonAgregarProducto.Size = new Size(134, 32);
+            buttonAgregarProducto.TabIndex = 7;
+            buttonAgregarProducto.Text = "Agregar Producto";
+            buttonAgregarProducto.UseVisualStyleBackColor = false;
+            buttonAgregarProducto.Click += buttonAgregarProducto_Click;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Britannic Bold", 12F);
+            label5.ForeColor = SystemColors.ActiveCaptionText;
+            label5.Location = new Point(555, 88);
+            label5.Name = "label5";
+            label5.Size = new Size(54, 17);
+            label5.TabIndex = 6;
+            label5.Text = "Precio";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Britannic Bold", 12F);
+            label4.ForeColor = SystemColors.ActiveCaptionText;
+            label4.Location = new Point(394, 88);
+            label4.Name = "label4";
+            label4.Size = new Size(76, 17);
+            label4.TabIndex = 5;
+            label4.Text = "Categoria";
+            // 
+            // Producto
+            // 
+            Producto.AutoSize = true;
+            Producto.Font = new Font("Britannic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Producto.ForeColor = SystemColors.ActiveCaptionText;
+            Producto.Location = new Point(235, 88);
+            Producto.Name = "Producto";
+            Producto.Size = new Size(74, 17);
+            Producto.TabIndex = 4;
+            Producto.Text = "Producto";
+            // 
+            // textBoxPrecio
+            // 
+            textBoxPrecio.Location = new Point(533, 117);
+            textBoxPrecio.Name = "textBoxPrecio";
+            textBoxPrecio.Size = new Size(100, 22);
+            textBoxPrecio.TabIndex = 3;
+            // 
+            // textBoxCategoria
+            // 
+            textBoxCategoria.Location = new Point(380, 117);
+            textBoxCategoria.Name = "textBoxCategoria";
+            textBoxCategoria.Size = new Size(100, 22);
+            textBoxCategoria.TabIndex = 2;
+            // 
+            // textBoxProducto
+            // 
+            textBoxProducto.Location = new Point(220, 117);
+            textBoxProducto.Name = "textBoxProducto";
+            textBoxProducto.Size = new Size(100, 22);
+            textBoxProducto.TabIndex = 1;
+            // 
+            // panel4
+            // 
+            panel4.BackColor = Color.DarkSlateGray;
+            panel4.Controls.Add(label2);
+            panel4.Dock = DockStyle.Top;
+            panel4.Location = new Point(0, 0);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(866, 60);
+            panel4.TabIndex = 0;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Britannic Bold", 21.75F);
+            label2.ForeColor = SystemColors.ButtonHighlight;
+            label2.Location = new Point(380, 13);
+            label2.Name = "label2";
+            label2.Size = new Size(81, 32);
+            label2.TabIndex = 0;
+            label2.Text = "Menú";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Dock = DockStyle.Fill;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(939, 488);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
+            // ZazónApp
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1076, 572);
+            Controls.Add(panel3);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
+            Name = "ZazónApp";
+            Text = "ZazónApp";
+            panel1.ResumeLayout(false);
+            panelPago.ResumeLayout(false);
+            panelPago.PerformLayout();
+            panel8.ResumeLayout(false);
+            panel8.PerformLayout();
+            panelEntregas.ResumeLayout(false);
+            panelEntregas.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewEntregas).EndInit();
+            panel7.ResumeLayout(false);
+            panel7.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            panel3.ResumeLayout(false);
+            panelOrdenes.ResumeLayout(false);
+            panelOrdenes.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewMenuOrdenes).EndInit();
+            panel6.ResumeLayout(false);
+            panel6.PerformLayout();
+            panelMenu.ResumeLayout(false);
+            panelMenu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewMenu).EndInit();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private Panel panel1;
+        private Panel panel2;
+        private Label label1;
+        private Panel panel3;
+        private PictureBox pictureBox1;
+        private Button buttonPagos;
+        private Button buttonEntregas;
+        private Button buttonMenu;
+        protected Button buttonOrdenes;
+        private Panel panelMenu;
+        private Panel panel4;
+        private Label label2;
+        private Label label5;
+        private Label label4;
+        private Label Producto;
+        private TextBox textBoxPrecio;
+        private TextBox textBoxCategoria;
+        private TextBox textBoxProducto;
+        private Button buttonVolverMenu;
+        private Button buttonActualizarProducto;
+        private Button buttonEliminarProducto;
+        private Button buttonAgregarProducto;
+        private DataGridView dataGridViewMenuOrdenes;
+        private DataGridView dataGridViewMenu;
+        private Panel panelOrdenes;
+        private Panel panel6;
+        private Label label3;
+        private Button buttonAggorden;
+        private Button buttonVolverOrden;
+        private Button buttonConfirmarOrden;
+        private ListBox listBoxOrden;
+        private Label labelTotalOrden;
+        private Panel panelEntregas;
+        private Panel panel7;
+        private Label label6;
+        private Button buttonVolverEntrega;
+        private Button buttonConfirmarEntrega;
+        private DataGridView dataGridViewEntregas;
+        private Label labelltotalentregas;
+        private ListBox listBoxEntregas;
+        private Panel panelPago;
+        private Panel panel8;
+        private Label label7;
+        private Label labelMetodo;
+        private Label TotalPago;
+        private Label labelOrden;
+        private Button buttonPago;
+        private ComboBox comboBoxMetodoPago;
+        private ComboBox comboBoxOrden;
+        private Label labelTotalPago;
+        private Button buttonVolverPago;
+        private Button buttonEliminarEntrega;
+    }
+}
